@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Merriweather');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, a{
+  /* font-family: 'Archivo Narrow', sans-serif; */
+  font-family: 'Merriweather', serif;
+
+}
+
+p {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/header.jpg);
+  height: 100vh;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+navigation {
+  background-color: #cd9a70;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between  ;
+}
+
+navigation ul {
+  /* align-self: flex-end; */
+  display: flex;
+  width: 20%;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+navigation ul li a {
+  color: white;
+  text-decoration: none;
+}
+.welcome{
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
+.welcome h2{
+  font-size:4em;
+}
+.welcome h3{
+  font-size:2em;
+}
