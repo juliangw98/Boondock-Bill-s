@@ -14,7 +14,7 @@
     </head>
 
     <body>
-      <!--#include virtual="/include/navigation.inc" -->.
+      <!--#include virtual="/include/navigation.inc" -->
 
         <header>
 
