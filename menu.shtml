@@ -1,0 +1,127 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Boondock Bill's</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+
+    <body>
+        <!--#include virtual="include/navigation.inc"  -->
+
+        <section class="flexH menu-section" >
+            <div class="menu"> <button class="accordion">Drinks</button>
+                <div class="panel">
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                </div>
+            </div>
+
+            <div class="menu">
+                <button class="accordion">Food</button>
+                <div class="panel">
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                </div>
+            </div>
+            <div class="menu">
+                <button class="accordion">Snacks</button>
+                <div class="panel">
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                    <section class="menu-item">
+                        <div>
+                            <h2>Food Item</h2>
+                            <p>discription of the food and what comes on the sides</p>
+                        </div>
+                        <h2>$12.34</h2>
+                    </section>
+                </div>
+            </div>
+
+
+
+        </section>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

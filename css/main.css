@@ -5,14 +5,24 @@
   padding: 0px;
 }
 
-h1, h2, h3, h4, h5, a{
+h1, h2, h3, h4, h5, a {
   /* font-family: 'Archivo Narrow', sans-serif; */
   font-family: 'Merriweather', serif;
-
 }
 
 p {
   font-family: 'Archivo Narrow', sans-serif;
+  margin-bottom: 20px;
+}
+
+.flexH {
+  display: flex;
+  height: 100vh
+}
+
+.flexV {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -29,13 +39,17 @@ navigation {
   background-color: #cd9a70;
   display: flex;
   padding: 20px;
-  justify-content: space-between  ;
+  justify-content: space-between;
+}
+
+navigation p {
+  margin-bottom: 0px;
 }
 
 navigation ul {
   /* align-self: flex-end; */
   display: flex;
-  width: 20%;
+  width: 30%;
   list-style-type: none;
   justify-content: space-between;
 }
@@ -44,14 +58,74 @@ navigation ul li a {
   color: white;
   text-decoration: none;
 }
-.welcome{
+
+.welcome {
   color: white;
   text-align: center;
   line-height: 100px;
 }
-.welcome h2{
-  font-size:4em;
+
+.welcome h2 {
+  font-size: 4em;
 }
-.welcome h3{
-  font-size:2em;
+
+.welcome h3 {
+  font-size: 2em;
+}
+
+#AboutUsText {
+  padding: 50px;
+  flex: 1;
+}
+
+#owner {
+  width: 100%;
+  background-image: url(../img/owner.jpg);
+  background-size: cover;
+  flex: 1;
+}
+.menu-section{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+
+}
+section>.menu{
+  display: flex;
+  flex-direction: column;
+}
+.menu-item{
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item>div{
+  display: flex;
+  flex-direction: column;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }

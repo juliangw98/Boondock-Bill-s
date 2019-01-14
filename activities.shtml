@@ -14,17 +14,8 @@
     </head>
 
     <body>
-      <!--#include virtual="include/navigation.inc"  -->
-
-        <header>
-
-
-
-            <div class="welcome">
-                <h2>Boondock Bill's</h2>
-                <h3>Where locals & visitors meet and play!</h3>
-            </div>
-        </header>
+        <!--#include virtual="include/navigation.inc"  -->
+        
 
         <script src="js/main.js"></script>
     </body>

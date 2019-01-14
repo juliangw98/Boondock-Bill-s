@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Boondock Bill's</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+
+    <body>
+        <!--#include virtual="include/navigation.inc"  -->
+        <h2> Get in touch!</h2>
+        
+        <section class=flexH>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5478.384007204634!2d-81.31042165771387!3d28.742417143093164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e76d22b5f4778b%3A0x81b4e5ebefe26298!2sSeminole+State+College+-+Sanford%2FLake+Mary+Campus!5e0!3m2!1snl!2sus!4v1547421009172"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 100 Weldon Blvd, Sanford, FL 32773</li>
+            <li><i class="fas fa-phone"></i></i> (407) 708-4722</li>
+            <li><i class="fas fa-envelope"></i></i> 100 Weldon Blvd, Sanford, FL 32773</li>
+          </ul>
+
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
