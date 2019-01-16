@@ -85,7 +85,7 @@ navigation ul li a {
   flex: 1;
 }
 .menu-section{
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-around;
 
@@ -93,6 +93,8 @@ navigation ul li a {
 section>.menu{
   display: flex;
   flex-direction: column;
+min-height: 33vh;
+background-size: contain;
 }
 .menu-item{
   padding: 25px;
@@ -105,8 +107,6 @@ section>.menu{
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-  background-color: #eee;
-  color: #444;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -114,6 +114,13 @@ section>.menu{
   border: none;
   outline: none;
   transition: 0.4s;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  text-transform: uppercase;
+
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -125,7 +132,26 @@ section>.menu{
 .panel {
   padding: 0 18px;
   background-color: white;
-  max-height: 0;
+  height:0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: height 0.5s ease-out;
+}
+.active{
+  height: 180%;
+  transition: height 0.5s ease-out;
+
+
+}
+
+.drinks{
+background-image: url(../img/drinks.jpg);
+}
+
+.food{
+background-image: url(../img/food.jpg);
+}
+
+.snacks{
+  background-image: url(../img/snack.jpg);
+
 }
